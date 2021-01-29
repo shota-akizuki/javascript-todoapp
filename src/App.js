@@ -30,7 +30,7 @@ export class App {
     });
     // 3. フォームを送信したら、新しいTodoItemModelを追加する
     formElement.addEventListener("submit", (event) => {
-      event.preventDefault;
+      event.preventDefault();
       // 新しいTodoItemをTodoListへ追加する
       this.todoListModel.addTodo(
         new TodoItemModel({

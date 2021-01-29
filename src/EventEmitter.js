@@ -40,7 +40,7 @@ export class EventEmitter {
    * @param {Function} listener イベントリスナー
    */
 
-  removeEventLister() {
+  removeEventListener() {
     // 指定したイベントに対応するSetを取り出し、該当するリスナー関数を削除する
     const listenerSet = this._listeners.get(type);
     if (!listenerSet) {
